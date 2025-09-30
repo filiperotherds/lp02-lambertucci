@@ -25,7 +25,7 @@ export default {
       colors: {
         primary: "#121315",
         secondary: "#666666",
-        accent: "#ffca3b",
+        accent: "#ffb000",
         border: "#d7d7d7",
       },
       boxShadow: {
