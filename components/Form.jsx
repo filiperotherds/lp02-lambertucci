@@ -27,10 +27,10 @@ const Form = () => {
             <SelectContent>
               <SelectGroup>
                 <SelectLabel>Select a service</SelectLabel>
-                <SelectItem value="construction">Construction</SelectItem>
-                <SelectItem value="renovation">Renovation</SelectItem>
-                <SelectItem value="restoration">Restoration</SelectItem>
-                <SelectItem value="consulting">Consulting</SelectItem>
+                <SelectItem value="Remodelig">Remodelig</SelectItem>
+                <SelectItem value="kitchen">Kitchen</SelectItem>
+                <SelectItem value="bathroom">Bathroom</SelectItem>
+                <SelectItem value="deck">Deck</SelectItem>
               </SelectGroup>
             </SelectContent>
           </Select>

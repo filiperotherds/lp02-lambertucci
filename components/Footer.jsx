@@ -30,8 +30,7 @@ const Footer = () => {
               <Image src="/assets/logo.svg" width={230} height={48} alt="" />
             </Link>
             <p className="text-border max-w-[270px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-              ut libero pariatur voluptatum porro.
+              Your premier partner in construction, delivering excellence and integrity from foundation to finish.
             </p>
           </div>
           {/* contact */}
@@ -40,15 +39,15 @@ const Footer = () => {
             <ul className="flex flex-col gap-6">
               <li className="flex items-center gap-4">
                 <RiMapPin2Fill className="text-accent text-xl" />
-                <p>1250 Brickstone Ave, US</p>
+                <p>Somerset, MA, United States</p>
               </li>
               <li className="flex items-center gap-4">
                 <RiPhoneFill className="text-accent text-xl" />
-                <p>+1 (555) 000-0000</p>
+                <p>+1 (508) 310-8506</p>
               </li>
               <li className="flex items-center gap-4">
                 <RiMailFill className="text-accent text-xl" />
-                <p>email@urbanbuild.com</p>
+                <p>contact@lambertucciconstruction.com</p>
               </li>
             </ul>
           </div>
@@ -56,8 +55,7 @@ const Footer = () => {
           <div className="flex-1 text-border">
             <h4 className="h4 text-white mb-10">Newsletter</h4>
             <p className="mb-9">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut
-              animi architecto repudiandae aliquid iusto itaque!
+              Get industry insights and see our latest projects. Subscribe to our newsletter for updates from our expert team.
             </p>
             {/* input */}
             <div className="relative max-w-[370px]">
@@ -76,7 +74,7 @@ const Footer = () => {
       {/* copyright */}
       <div className="container mx-auto xl:px-0 py-12 border-t border-border/10 flex flex-col gap-6 xl:flex-row items-center justify-between">
         <p className="text-border">
-          Copyright &copy; 2025 UrbanBuild. All rights reserved.
+          Copyright &copy; 2025 Lambertucci Construction. All rights reserved.
         </p>
         <Socials
           containerStyles="flex gap-6 text-white"

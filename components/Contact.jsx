@@ -23,8 +23,8 @@ const Contact = () => {
                 Contact Us
               </h4>
               <p className="mb-9">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-                delectus harum sint et nisi cupiditate?
+                Got a project in mind? Let's build it together. 
+                Reach out and let our team of experts bring your vision to life.
               </p>
               {/* contact items */}
               <div className="flex flex-col gap-[40px] mb-16">
@@ -39,7 +39,7 @@ const Contact = () => {
                     </h5>
                     <p className="mb-4">Our friendly team is here to help.</p>
                     <p className="font-semibold text-primary">
-                      hi@urbanbuild.com
+                      contact@lambertucciconstruction.com
                     </p>
                   </div>
                 </div>
@@ -54,7 +54,7 @@ const Contact = () => {
                     </h5>
                     <p className="mb-4">Come and say hello at our office.</p>
                     <p className="font-semibold text-primary">
-                      1250 Brickstone Ave, Dallas, TX 75201, USA
+                      Somerset, MA, United States
                     </p>
                   </div>
                 </div>
@@ -67,9 +67,9 @@ const Contact = () => {
                     <h5 className="text-[22px] font-semibold font-primary leading-none mb-2">
                       Phone
                     </h5>
-                    <p className="mb-4">Mon-Fri from 8am to 5pm.</p>
+                    <p className="mb-4">Mon-Fri from 7am to 5pm.</p>
                     <p className="font-semibold text-primary">
-                      +1 (555) 000-0000
+                      +1 (508) 310-8506
                     </p>
                   </div>
                 </div>
@@ -81,11 +81,9 @@ const Contact = () => {
             </div>
             {/* form */}
             <div className="flex-1">
-              <h2 className="h2 mb-3">Request A Quote</h2>
+              <h2 className="h2 mb-3">Request A Free Quote</h2>
               <p className="mb-9">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                debitis aliquid error deleniti quia voluptas odit temporibus
-                quos repellat corporis?
+                Ready to take the next step? Fill out our form with your project details and we'll provide a comprehensive and competitive quote.
               </p>
               <Form />
             </div>

@@ -8,21 +8,13 @@ import {
 } from "react-icons/ri";
 
 const socials = [
-  {
-    icon: <RiFacebookFill />,
-    path: "",
-  },
-  {
-    icon: <RiYoutubeFill />,
-    path: "",
-  },
-  {
-    icon: <RiTwitterXFill />,
-    path: "",
-  },
+  // {
+  //   icon: <RiYoutubeFill />,
+  //   path: "",
+  // },
   {
     icon: <RiInstagramFill />,
-    path: "",
+    path: "https://instagram.com",
   },
 ];
 
