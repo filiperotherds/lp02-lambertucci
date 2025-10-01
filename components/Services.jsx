@@ -33,9 +33,9 @@ const serviceData = [
     ],
   },
   {
-    name: "renovation",
+    name: "remodeling",
     icon: <PiPaintRollerFill />,
-    title: "Renovation Services",
+    title: "Remodeling Services",
     description:
       "Revitalizing spaces with modern designs and high-quality craftsmanship. Whether upgrading a home or remodeling an office, we bring fresh life to every project.",
     serviceList: [
@@ -75,7 +75,7 @@ const serviceData = [
     icon: <PiUserGearFill />,
     title: "Consulting Services",
     description:
-      "Providing expert guidance for construction and renovation projects. From planning and budgeting to compliance and sustainability, our consulting service ensure project success.",
+      "Providing expert guidance for construction and remodeling projects. From planning and budgeting to compliance and sustainability, our consulting service ensure project success.",
     serviceList: [
       "Project Plans",
       "Costing",
