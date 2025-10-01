@@ -8,26 +8,26 @@ const workData = [
   {
     img: "/assets/img/work/restoration.jpg",
     name: "restoration",
-    description: "Restoring original character and charm",
-    href: "",
+    description: "Restoring original character",
+    href: "sms:+15083108506?body=Hello!%20I'd%20like%20to%20request%20a%20free%20quote%20for%20a%20restoration%20project.",
   },
   {
     img: "/assets/img/work/construction.jpg",
     name: "construction",
-    description: "Building your vision from the ground up",
-    href: "",
+    description: "Building your vision from the ground",
+    href: "sms:+15083108506?body=Hello!%20I'd%20like%20to%20request%20a%20free%20quote%20for%20a%20new%20construction%20project.",
   },
   {
     img: "/assets/img/work/renovation.jpg",
     name: "remodeling",
     description: "Transforming spaces for modern living",
-    href: "",
+    href: "sms:+15083108506?body=Hello!%20I'd%20like%20to%20request%20a%20free%20quote%20for%20a%20remodeling%20project.",
   },
   {
     img: "/assets/img/work/consulting.jpg",
     name: "consulting",
-    description: "Expert guidance for your project's success",
-    href: "",
+    description: "Expert guidance for your project's",
+    href: "sms:+15083108506?body=Hello!%20I'd%20like%20to%20inquire%20about%20your%20consulting%20services%20for%20a%20project.",
   },
 ];
 
