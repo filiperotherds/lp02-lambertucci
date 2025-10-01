@@ -8,25 +8,25 @@ const workData = [
   {
     img: "/assets/img/work/restoration.jpg",
     name: "restoration",
-    description: "Your short description",
+    description: "Restoring original character and charm",
     href: "",
   },
   {
     img: "/assets/img/work/construction.jpg",
     name: "construction",
-    description: "Your short description",
+    description: "Building your vision from the ground up",
     href: "",
   },
   {
     img: "/assets/img/work/renovation.jpg",
-    name: "renovation",
-    description: "Your short description",
+    name: "remodeling",
+    description: "Transforming spaces for modern living",
     href: "",
   },
   {
     img: "/assets/img/work/consulting.jpg",
     name: "consulting",
-    description: "Your short description",
+    description: "Expert guidance for your project's success",
     href: "",
   },
 ];

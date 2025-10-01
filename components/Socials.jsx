@@ -1,9 +1,7 @@
 import Link from "next/link";
 
 import {
-  RiFacebookFill,
   RiYoutubeFill,
-  RiTwitterXFill,
   RiInstagramFill,
 } from "react-icons/ri";
 
@@ -14,7 +12,7 @@ const socials = [
   // },
   {
     icon: <RiInstagramFill />,
-    path: "https://instagram.com",
+    path: "https://instagram.com/lambertucciconstruction",
   },
 ];
 
