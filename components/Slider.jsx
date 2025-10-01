@@ -86,7 +86,7 @@ const Slider = () => {
             <div className="flex flex-col items-start justify-center space-y-1">
               <p className="font-primary font-semibold text-primary">Michael Chen</p>
 
-              <p className="font-secondary text-xs">Managing Partner at <b>Horizon Capital Group</b></p>
+              <p className="font-secondary text-xs">Managing Partner at <b>Horizon Capital</b></p>
             </div>
           </div>
         </div>
