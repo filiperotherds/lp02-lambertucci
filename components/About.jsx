@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Pretitle from "./Pretitle";
-import Button from "./Button";
 
 import { motion } from "framer-motion";
 import { fadeIn } from "@/variants";
 import Link from "next/link";
+import ContactButton from "./ContactButton";
 
 const About = () => {
   return (
@@ -41,7 +41,7 @@ const About = () => {
               </div>
               {/* btn */}
               <Link href={`sms:+15083108506?body=Hello!%20I'd%20like%20to%20request%20a%20free%20quote%20for%20a%20project.`}>
-                <Button text="Contact us" />
+                <ContactButton text="Contact us" />
               </Link>
             </motion.div>
           </div>
