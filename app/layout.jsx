@@ -1,3 +1,4 @@
+import Script from "next/script";
 import { DM_Sans, Barlow } from "next/font/google";
 import "./globals.css";
 
@@ -23,6 +24,23 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${dmSans.variable} ${barlow.variable} antialiased`}>
         {children}
+
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-17621929014"></Script>
+        <Script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-17621929014');
+        </Script>
+
+        <Script>
+          gtag('event', 'conversion', {
+            'send_to': 'AW-17621929014/5P7fCMSR8qcbELaY5dJB',
+          'value': 1.0,
+          'currency': 'BRL'
+          });
+        </Script>
       </body>
     </html>
   );
