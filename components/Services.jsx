@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { Tabs, TabsList, TabsContent, TabsTrigger } from "@/components/ui/tabs";
 import Image from "next/image";
-import Button from "./Button";
 
 import {
   PiWallFill,
@@ -93,6 +92,7 @@ const serviceData = [
 
 import { motion } from "framer-motion";
 import { fadeIn } from "@/variants";
+import ContactButton from "./ContactButton";
 
 const fadeInVariant = {
   hidden: { opacity: 0 },
@@ -199,7 +199,7 @@ const Services = () => {
                           })}
                         </ul>
                         {/* btn */}
-                        <Button text="Read more" />
+                        <ContactButton text="Contact us" />
                       </div>
                     </div>
                   </motion.div>

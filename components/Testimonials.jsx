@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Button from "./Button";
 import Pretitle from "./Pretitle";
 import Slider from "./Slider";
 
 import { motion } from "framer-motion";
 import { fadeIn } from "@/variants";
+import ContactButton from "./ContactButton";
 
 const Testimonials = () => {
   return (
@@ -26,7 +26,7 @@ const Testimonials = () => {
               experiences of working with us. See how we've helped them bring
               their dreams to live with expert craftsmanship.
             </p>
-            <Button text="Work with us" />
+            <ContactButton text="Contact us" />
           </motion.div>
           {/* img & slider */}
           <motion.div
