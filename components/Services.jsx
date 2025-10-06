@@ -93,6 +93,7 @@ const serviceData = [
 import { motion } from "framer-motion";
 import { fadeIn } from "@/variants";
 import ContactButton from "./ContactButton";
+import Link from "next/link";
 
 const fadeInVariant = {
   hidden: { opacity: 0 },
@@ -140,11 +141,10 @@ const Services = () => {
                     className="w-full rounded-none h-[100px] flex items-center relative shadow-custom p-0 outline-none"
                   >
                     <div
-                      className={`w-[100px] h-[100px] flex items-center justify-center absolute left-0 ${
-                        activeTab === item.name
+                      className={`w-[100px] h-[100px] flex items-center justify-center absolute left-0 ${activeTab === item.name
                           ? "bg-primary text-white"
                           : "bg-accent text-primary"
-                      }`}
+                        }`}
                     >
                       <div className="text-4xl">{item.icon}</div>
                     </div>
@@ -199,7 +199,9 @@ const Services = () => {
                           })}
                         </ul>
                         {/* btn */}
-                        <ContactButton text="Contact us" />
+                        <Link href={`sms:+15083108506?body=Hello!%20I'd%20like%20to%20request%20a%20free%20quote%20for%20a%20project.`}>
+                          <ContactButton text="Contact us" />
+                        </Link>
                       </div>
                     </div>
                   </motion.div>

@@ -5,6 +5,7 @@ import Slider from "./Slider";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/variants";
 import ContactButton from "./ContactButton";
+import Link from "next/link";
 
 const Testimonials = () => {
   return (
@@ -26,7 +27,9 @@ const Testimonials = () => {
               experiences of working with us. See how we've helped them bring
               their dreams to live with expert craftsmanship.
             </p>
-            <ContactButton text="Contact us" />
+            <Link href={`sms:+15083108506?body=Hello!%20I'd%20like%20to%20request%20a%20free%20quote%20for%20a%20project.`}>
+              <ContactButton text="Contact us" />
+            </Link>
           </motion.div>
           {/* img & slider */}
           <motion.div
